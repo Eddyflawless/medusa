@@ -1,0 +1,10 @@
+{
+    "name": "app-2",
+    "scripts": {
+        "build": "tsc -b",
+        "go": "node dist/app-2.js"
+    },
+    "devDependencies": {
+        "typescript": "^4.5.4"
+    }
+}

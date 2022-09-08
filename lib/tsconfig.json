@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "lib": ["es2019"],
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "ES5",
+        "composite": true,
+        "forceConsistentCasingInFileNames": false
+    },
+    "include": ["src"]
+}

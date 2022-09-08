@@ -1,0 +1,15 @@
+{
+    "name": "typescript-workspaces-example",
+    "scripts": {
+        "build:all": "tsc -b ./tsconfig.packages.json",
+        "build:watch": "tsc --watch",
+        "test": "echo 'running test'"
+    },
+    "workspaces": [
+        "app-2",
+        "lib"
+    ],
+    "devDependencies": {
+        "typescript": "^4.5.4"
+    }
+}
