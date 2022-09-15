@@ -24,6 +24,8 @@ To run the tests (from the `app-test/` directory):
 
 -   `npm run build:all`
 -   `npm run test`
+-   `npm run test --workspaces`
+
 
 To run the app tool (from the `app-2/` directory):
 

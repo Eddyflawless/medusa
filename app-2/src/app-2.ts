@@ -1,7 +1,9 @@
 import { hello } from "lib";
 
+const fruit = "apple";
+
 function apiCli(){
-    console.log(hello("this world is awesome2. Cuz i can"))
+    console.log(hello("This world is awesome2. Cuz i can"))
 }
 
 apiCli()

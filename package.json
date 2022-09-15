@@ -1,15 +1,22 @@
 {
     "name": "typescript-workspaces-example",
     "scripts": {
-        "build:all": "tsc -b ./tsconfig.packages.json",
-        "build:watch": "tsc --watch",
-        "test": "echo 'running test'"
+        "build:watch": "tsc -w tsconfig.base.json"
     },
     "workspaces": [
         "app-2",
         "lib"
     ],
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.37.0",
+        "@typescript-eslint/parser": "^5.37.0",
+        "eslint": "^8.23.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1",
         "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.19"
     }
 }
