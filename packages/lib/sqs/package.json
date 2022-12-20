@@ -1,0 +1,33 @@
+{
+  "name": "@medusa/sqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified for now\" ",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "darkvadr",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1251.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "sequelize": "^6.27.0"
+  }
+}

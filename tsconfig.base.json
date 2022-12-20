@@ -1,14 +1,16 @@
 {
     "compilerOptions": {
         "strict": true,
-        "module": "commonjs",
         "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
         "resolveJsonModule": true,
+        "removeComments": true,
         "isolatedModules": true,
         "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
         "noUnusedLocals": true,
-        "noUnusedParameters": true
+        "esModuleInterop": true,
 
     },
 

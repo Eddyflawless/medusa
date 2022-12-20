@@ -1,0 +1,33 @@
+{
+    "name": "@medusa/app-2",
+    "version": "1.0.0",
+    "main": "./dist",
+    "engines": {
+        "node": "16.x"
+    },
+    "scripts": {
+        "build": "npm run clean && tsc --build .",
+        "start": "node dist/index.js",
+        "start:dev": "nodemon dist/index.js",
+        "start:ts": "ts-node src/index.ts",
+        "clean": "rm -rf ./dist",
+        "test": "echo \"Error: no test specified for now\" ",
+        "testv": "jest",
+        "test:watch": "jest --watch",
+        "test:unit": "jest --color --coverage"
+    },
+    "devDependencies": {
+        "sinon": "^14.0.1",
+        "sinon-express-mock": "^2.2.1"
+    },
+    "dependencies": {
+        "@medusa/logger": "*",
+        "@medusa/middlewares": "*",
+        "@medusa/sqs": "*",
+        "axios": "^1.1.3",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.8.0",
+        "node-cache": "^5.1.2",
+        "sequelize": "^6.27.0"
+    }
+}

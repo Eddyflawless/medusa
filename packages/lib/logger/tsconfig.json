@@ -1,0 +1,15 @@
+{
+    "extends": "../../../tsconfig.base.json",
+    "compilerOptions": {
+        "lib": ["es2019"],
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "es6",
+        "allowJs": true,
+        "checkJs": false,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "exclude": ["node_modules","**/*.spec.ts"],
+    "include": ["src"]
+}

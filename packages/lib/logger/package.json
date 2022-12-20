@@ -1,0 +1,28 @@
+{
+  "name": "@medusa/logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified for now\" ",
+    "build": "tsc -b ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/winston": "^2.4.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "sequelize": "^6.27.0",
+    "winston": "^3.8.2",
+    "winston-logstash-transport": "^2.0.0"
+  }
+}

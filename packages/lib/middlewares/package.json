@@ -1,0 +1,19 @@
+{
+  "name": "@medusa/middlewares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" ",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@medusa/logger": "*",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "sequelize": "^6.27.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

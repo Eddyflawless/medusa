@@ -1,0 +1,30 @@
+{
+    "include": [
+      "src"
+    ],
+    "compilerOptions": {
+      "module": "ESNext",
+      "outDir": "dist",
+      "lib": [
+        "ESNext", "DOM"
+      ],
+      "declaration": true,
+      "rootDir": "./src",
+      "strict": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "target": "ESNext",
+      "declarationMap": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "allowJs": true,
+    }
+  }
