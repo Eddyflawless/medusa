@@ -1,16 +1,16 @@
-import express, { Handler, NextFunction } from "express";
+import { NextFunction } from "express";
 
 export const dbMongo = async (
-  req: Request,
-  res: Response,
+  _req: Request,
+  _res: Response,
   next: NextFunction
 ) => {
   next();
 };
 
 export const dbGlobal = async (
-  req: Request,
-  res: Response,
+  _req: Request,
+  _res: Response,
   next: NextFunction
 ) => {
   next();

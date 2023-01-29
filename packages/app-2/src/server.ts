@@ -37,7 +37,7 @@ export function createApp() {
     const err = new Error("test error");
     log.error({
       code: ``,
-      customMessage: `500 | An error occured | data: ${JSON.stringify({
+      customMessage: ` ${JSON.stringify({
         data: err.message,
       })}`,
     });

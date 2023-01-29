@@ -15,3 +15,7 @@ Directores
 -   Download and install nvm onto your system
 -   Run `nvm install 16.17.0`
 -   `nvm use v16.17.0`
+
+- brew install postgresql@14
+- brew services start postgresql
+- brew services stop postgresql
